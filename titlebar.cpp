@@ -14,14 +14,17 @@ TitleBar::TitleBar(QWidget *parent)
     optionButton->setObjectName("OptionButton");
     optionButton->setFocusPolicy(Qt::NoFocus);
     optionButton->setFixedSize(27, 23);
+    optionButton->setCursor(Qt::PointingHandCursor);
 
     minimizeButton->setObjectName("MinimizeButton");
     minimizeButton->setFocusPolicy(Qt::NoFocus);
     minimizeButton->setFixedSize(27, 23);
+    minimizeButton->setCursor(Qt::PointingHandCursor);
 
     closeButton->setObjectName("CloseButton");
     closeButton->setFocusPolicy(Qt::NoFocus);
     closeButton->setFixedSize(27, 23);
+    closeButton->setCursor(Qt::PointingHandCursor);
 
     layout->addStretch();
     layout->addWidget(optionButton);
